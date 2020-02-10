@@ -19,6 +19,7 @@
     <a-assets>
       <img id="cat" src="assets/cat_in_cat.png">
       <img id="plur" src="assets/PLUR.jpg">
+      <img id="mouth" src="assets/Mouth.png">
     </a-assets>
 
 
@@ -34,6 +35,12 @@
       <a-image src="#plur" width="3" height="1.7" rotation="90 0 0" position="0 2 0"></a-image>
       <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
       <!-- <a-image src="assets/assets/PLUR.jpg"></a-image> -->
+    </a-marker>
+    <a-marker type="barcode" value="1">
+      <!-- Using the asset management system. -->
+      <a-image src="#mouth" width="3" height="1.7" rotation="90 0 0" position="0 2 0"></a-image>
+      <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+      <!-- <a-image src="assets/mouth.png"></a-image> -->
     </a-marker>
     <a-entity camera=""></a-entity>
   </a-scene>
